@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0
+}
+
+ header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #9F9F9F;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.solo-wireless {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:100px;
+    font-weight: 100;
+    justify-content: space-between;
+}
+
+
+.solo-wireless :first-child {
+    flex-basis: 35%;
+    padding-right: 5%;
+}
+.solo-wireless :nth-child(2) {
+    flex-basis: 60%;
+}
+
+.solo-wireless div img {
+    max-width: 600px;
+}
+
+.solo-wireless h1 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+button {
+    background-color: #FF0000;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    cursor: pointer;
+    border:none;
+    border-radius: 15px;
+}
+
+
+.powerbeats {
+    background-color: #FBFCFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:100px;
+    font-weight: 100;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.powerbeats :first-child {
+    flex-basis: 60%;
+}
+.powerbeats :nth-child(2) {
+    flex-basis: 35%;
+    padding-right: 5%;
+}
+
+.powerbeats div img {
+    max-width: 500px;
+}
+
+.powerbeats h1 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.description {
+    padding: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.performance {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.powerbeats > div > strong {
+    font-size: 40px;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+.trial-period {
+    background-color: #575757;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.trial-period div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trial-period a {
+   color: white;
+}
+
+
+.give-life {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 100;
+    background-color: #DADADA;
+    
+}
+
+.give-life :first-child {
+    flex-basis: 50%;
+}
+.give-life :nth-child(2) {
+    flex-basis: 50%;
+    
+}
+
+.girl-photo {
+   background-image: url(./images/beats-girl.png);
+   background-repeat: no-repeat;
+   background-size: cover
+}
+.girl-photo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.girl-photo img, 
+.beats-red img{
+  max-width: 650px;
+}
+
+.beats-red {
+    display: flex;
+}
+
+.beats-red img {
+    max-height: auto;
+    flex-basis: 50%;
+}
+
+.beats-red h1 {
+    color: #333333;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.beats-red h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.beats-red h2 span {
+    text-transform: uppercase;
+    color: #FF0000
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: #333333;
+}
+
