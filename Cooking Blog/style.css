@@ -1,0 +1,259 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+body {
+    margin: 0; 
+    font-family: 'Gelasio', serif;
+    background-image: url(./Media/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Header styles  */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6E3DE;
+    color: #554938
+}
+
+header  h2 {
+    margin: 10px
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+   margin: auto 20px;
+}
+
+ul li {
+    margin: auto 10px
+}
+
+ul li a, ul li i{
+ text-decoration: none;
+ color: #554938;
+}
+
+header button {
+    background-color: #554938;
+    border: none;
+    padding: 5.5px;
+    color: white
+}
+
+/* Main styles */
+
+.search-section {
+    background-image: url(./Media/craving.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.search-section>div {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.search-section div h1 {
+    color: white;
+    padding: 0;
+    font-size: 35px;
+}
+
+.search-bar {
+    background-color: #e6e3deab;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.search-bar input {
+    border: none;
+    background-color: transparent;
+}
+.search-bar i {
+    color: #554938;
+    float: left;
+    margin: 2px;
+}
+
+.cocktails {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 370px;
+    margin: 30px auto
+}
+
+.photo-cocktails{
+    flex-basis: 65%;
+    justify-content: center;
+}
+.photo-cocktails img {
+    width: 100%;
+    height: 100%;
+}
+.info-cocktails {
+    background-color:#E6E3DE;
+    flex-basis: 35%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.info-cocktails h2, h4 {
+    margin: 5px 10px;
+}
+
+.info-cocktails h2 {
+    font-size: 25px;
+}
+.info-cocktails h4 {
+    font-size: 18px;
+}
+
+.info-cocktails button {
+    background-color: #554938;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 35%;
+    margin: 0 auto
+}
+
+
+/* Cookies section */
+
+.cookies {
+    display: flex;
+    justify-content: center;
+    
+    width: 80%;
+    height: 360px;
+    margin: 30px auto
+}
+
+.photo-cookies{
+    flex-basis: 65%;
+    justify-content: center;
+}
+.photo-cookies img {
+    width: 100%;
+    height: 100%;
+}
+.info-cookies {
+    background-color:#E6E3DE;
+    flex-basis: 35%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.info-cookies h2, h4 {
+    margin: 5px 10px;
+}
+
+.info-cookies h2 {
+    font-size: 25px;
+}
+.info-cookies h4 {
+    font-size: 18px;
+}
+
+/* Toolbox section */
+
+.toolbox {
+    text-align: center;
+
+}
+
+.cookie-toolbox {
+    display: flex;
+    align-items: baseline;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cookie-toolbox div {
+    flex-basis: 20%;
+    margin: 20px auto;
+}
+
+.cookie-toolbox div img {
+    width: 100%;
+    height: 100%;
+}
+
+.toolbox h4 {
+    width: 10%;
+    margin: 10px auto;
+    background-color: #e6e3dea6;
+    color: #554938;
+    padding: 5px; 
+}
+
+.cookie-toolbox h5 {
+    background-color:  #e6e3dea6;
+    padding: 10px;
+    margin: 0;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.toolbox button {
+    background-color: #DB4D36;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 85px;
+    margin: 15px
+}
+
+/* Footer */
+
+footer {
+    background-color: #e6e3dea6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+footer ul {
+    margin: 0;
+    list-style: none;
+    padding: 30px
+}
+
+footer :nth-child(1),
+footer :nth-child(2),
+footer :nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    border-right: 1px solid #554938;
+    padding-right: 15px;
+}
+
+.last {
+    border: none
+}
+
+
+
+
+
