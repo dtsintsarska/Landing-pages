@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+body {
+    font-family: 'Gelasio', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./images/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    
+}
+
+.navigation img {
+    width: 5%;
+    padding-left: 2%;
+    margin-top: 1%;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin: 10px;
+    margin-right: 25px;
+}
+
+.title {
+    text-align: center;
+    padding: 100px
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title button {
+    background-color: #146594;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* Main */
+
+main {
+    background-color: #E1E1E1;
+    margin: 0; 
+    padding: 0;
+    font-size: 25px;
+}
+section {
+    margin: 0; 
+    padding: 0
+}
+
+section h2 {
+    margin: 0;
+    color: #53595C;
+    margin: auto 140px;
+    padding-top: 20px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto auto;
+    height: 500px;
+}
+
+.packing {
+    background-image: url(./images/packing.jpg);
+    flex-grow: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+.column-articles {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+
+.planning {
+    background-image: url(./images/planning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.planning h4 {
+    margin-top: 0;
+}
+
+.budget {
+    background-image: url(./images/budget.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    flex-basis: 50%;
+    text-align: left;
+    position: relative;
+    margin-bottom:25px;
+}
+
+.budget h4 {
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #8C8C8C;
+    display: flex;
+    justify-content: space-between;
+    color: #C8C8C8;
+    padding: 0; 
+    margin: 0
+}
+
+footer ul {
+    margin: 0;
+    list-style: none;
+    padding: 30px
+}
+
+footer :nth-child(1),
+footer :nth-child(2),
+footer :nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    border-right: 1px solid #C8C8C8;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.last {
+    border: none
+}
+
+

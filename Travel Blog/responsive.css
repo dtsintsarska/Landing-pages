@@ -1,0 +1,140 @@
+@media screen and (max-width: 600px) {
+    
+    header {
+        width: 100%;
+    }
+    
+    .navigation {
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        width: 100%;
+    
+    }
+    nav ul {
+        margin: 0;
+        
+    }
+
+    .navigation ul li {
+        margin-right: 10px;
+        padding: 0
+    }
+    .navigation img {
+        width: 10%;
+        margin-top: 2%;
+        margin-right: 2%;
+        order: 1
+    }
+    .title {
+        padding: 50px;
+        text-align: start;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        width: fit-content
+    }
+
+    .title button {
+        font-size: 10px;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    main {
+        font-size: 15px;
+    }
+
+    section {
+        width: 100%;
+    }
+    section h2 {
+        font-size: 20px;
+        margin: auto 10px 
+    }
+    .articles {
+        flex-direction: column;
+        width: 100%;
+        flex-grow: none;
+        text-align: center;
+    }
+
+    .packing h4 {
+        margin: 0;
+        padding: 0
+    }
+
+    .packing {
+        width: 100%;
+        height: 100%;
+        margin: 0
+    }
+
+    .column-articles {
+        height: 100%;
+        width: 100%;
+        flex-grow: 0;
+    }
+
+    .articles h4 {
+        text-align: center;
+        position: relative;
+        margin: 0;
+        padding: 0
+    }
+
+    .packing {
+        flex-grow: 0;
+        margin-bottom:0px
+    }
+
+    .planning, 
+    .packing, 
+    .budget {
+        width: 90%;
+        height: 80%;
+        margin: 10px 20px;
+        flex-grow: 0;
+        justify-content: center;
+    }
+
+    .packing {
+        width: 90%;
+        height: 50%;
+        margin: 10px 20px
+    }
+
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    footer ul {
+        margin: 0; 
+        padding: 0
+    }
+    footer ul li {
+        margin: 0;
+        padding: 0
+    }
+
+footer :nth-child(1),
+footer :nth-child(2),
+footer :nth-child(3) {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+}
+
+
+}
