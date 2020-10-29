@@ -1,0 +1,28 @@
+@media screen and (max-width: 1000px) {
+
+    .pair {
+        flex-direction: column;
+    }
+
+    .planet {
+        width: 90%;
+    }
+
+    footer nav {
+        flex-direction: column;
+    }
+
+    .primary footer nav a:nth-child(even) {
+        border: none
+    }
+}
+
+@media screen and (max-width:850px) {
+    .news ul {
+        flex-direction: column;
+    }
+
+    .news ul li {
+        text-align: center;
+    }
+}
